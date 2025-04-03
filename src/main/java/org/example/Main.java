@@ -4,10 +4,14 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
+        // Задание 1
+        System.out.println("\n Задание 1 \n");
+
         BoatStopSimulation simulation = new BoatStopSimulation();
         simulation.runSimulation();
 
         // Задание 2
+        System.out.println("\n Задание 2");
 
         DictionaryApp app = new DictionaryApp();
         app.addWord("hello", Arrays.asList("hola", "bonjour"));
@@ -15,6 +19,7 @@ public class Main {
         app.run();
 
         // Задание 3
+        System.out.println("\n Задание 3");
 
         TaxDatabase db = new TaxDatabase();
         db.addPerson("12345", "Иван Иванов");
